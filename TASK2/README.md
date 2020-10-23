@@ -2,7 +2,7 @@
 
 ## How to Apply Terraform Changes?
 
-`peakon-devops-test/TASK2` has two folders `infra` and `local`. Local creates s3 bucket with dynamodb table which is required to store terraform state remotely in s3 bucket. 
+`peakon-devops-test/TASK2` has two folders `infra` and `local`. Local creates s3 bucket with dynamodb table which is required to store terraform state remotely in s3 bucket. Before applying changes please make sure you have correct versions and you must configure aws profile with name `test-2020` for this code to work. 
 
 ```
 # terraform --version
