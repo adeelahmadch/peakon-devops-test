@@ -1,0 +1,12 @@
+{
+    "name": "fake-product",
+    "description": "Fake App for Peakon Test",
+    "private": true,
+    "version": "0.0.1",
+    "main": "app.js",
+    "author": "Peakon",
+    "license": "0BSD",
+    "devDependencies": {
+        "express": "4.17.1"
+    }
+}
